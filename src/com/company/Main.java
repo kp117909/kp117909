@@ -7,5 +7,7 @@ public class Main {
         System.out.println("V2");
         System.out.println("V333");
         System.out.println("SS");
+        System.out.println("ZD");
+        System.out.println("DODAJ SIE ");
     }
 }
