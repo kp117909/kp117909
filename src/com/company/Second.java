@@ -1,2 +1,5 @@
-package com.company;public class Second {
+package com.company;
+
+public class Second {
+
 }
