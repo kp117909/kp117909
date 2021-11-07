@@ -2,25 +2,26 @@ package AISD;
 import java.lang.Math;
 
 public class DzieliZwyziecaj_correct {
+
+    public static int znajdz(int min, int max , int szukana, int ilosc_prob) {
+        int srodek = (min+max)/2;
+        if(srodek == szukana){
+            return ilosc_prob;
+        }
+        if(szukana < srodek){
+            System.out.println("Przedział ["+srodek+","+ min +"] Liczba jest za duża");
+            return znajdz(min, srodek -1, szukana , ilosc_prob +1);
+        }
+        else{
+            System.out.println("Przedział ["+srodek+","+max+"]Liczba jest za mała");
+            return znajdz(srodek + 1, max, szukana ,ilosc_prob +1);
+        }
+    }
+
     public static void main(String[] args) {
         int min = 0;
         int max = 1000;
-        int liczba_losowana = 325;
-        System.out.println("LICZBA WYNOSI: " + liczba_losowana);
-        System.out.println("Czy ta liczba jest to " + (min+max/2));
-        if (liczba_losowana == (min+max/2)) {
-            System.out.println("KOX");
-        }
-        else {
-            if(liczba_losowana > )
-        }
-
+        int szukana = 2;
+        System.out.println("Liczba " + szukana + " znaleziona w " + znajdz(min,max,szukana,1) + " podejściu");
     }
-
-    public static int RandomInt(int min, int max)
-    {
-        int range = (max-min) + 1;
-        return(int) (Math.random()*range) +min;
-    }
-
 }
