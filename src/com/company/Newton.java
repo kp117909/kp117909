@@ -1,7 +1,7 @@
-package AISD;
+package com.company;
 
 public class Newton {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         int N = 5;
         int K = 3;
         int [][] tab = new int[K + 1][N + 1];
@@ -25,5 +25,19 @@ public class Newton {
                 }
             }
         }
+    }*/
+    public static void main(String[] args) {
+        final int N = 5; // n-ty wyraz ciagu
+        //System.out.println(fibo(N));
+        System.out.println(fibo(N));
     }
+
+    static int fibo(int n) {
+        if (n == 1 || n == 2) {
+            return 1;
+        } else {
+            return fibo(n - 1);
+        }
+    }
+
 }

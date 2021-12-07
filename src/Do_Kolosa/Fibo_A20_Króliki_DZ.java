@@ -12,8 +12,8 @@ public class Fibo_A20_Króliki_DZ {
 
     public static void main(String[] args) {
         int N = 2;
-        for(int i = 0; i <= 10 ; i++) {
-            System.out.println(fibo(N+i));
+        for(int i = 1; i <= 10 ; i++) {
+            System.out.println("Liczba królikow jest równa: " + fibo(N+i) + " po " + i + " dniach");
         }
     }
 
