@@ -1,2 +1,7 @@
-package Do_Kolosa;public class ZgadywanieA6_MC {
+package Do_Kolosa;
+
+public class ZgadywanieA6_MC {
+
+
+
 }

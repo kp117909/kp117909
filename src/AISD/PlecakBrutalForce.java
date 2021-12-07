@@ -28,8 +28,8 @@ public class PlecakBrutalForce {
 
     final static int N  = 6;
     final static int MAX_V = 10;
-    final static int[] V = {6,2,3,2,3,1};
-    final static int[] W = {6,4,5,7,10,2};
+    final static int[] V = {6,2,6,2,5,1};
+    final static int[] W = {6,10,15,7,15,10};
     public static void main(String[] args) {
         int max_W = 0;
         int v,w;
