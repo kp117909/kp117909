@@ -1,11 +1,11 @@
 # 💫 About Me:
-Hey! I’m a Trainee/Junior PHP Developer. After graduating, I’ve been looking for my first job — which isn’t always easy without prior experience.
+Hey! I’m a **Trainee/Junior PHP Developer**. After graduating, I’ve been looking for my first job — which isn’t always easy without prior experience.
 
 If you’ve landed here, you’re probably a recruiter, checking out some code, or just browsing GitHub. If you’re the first one — welcome! I’d love for you to take a look at my latest project, built with the SOLID, KISS, and DRY principles:
-👉 https://vibeshop.polaksites.pl/
+👉 **https://vibeshop.polaksites.pl/**
 
 I’m consistently working to improve it and grow my portfolio.
-Thanks for taking the time to read this! If you have any ideas or feedback on how I can make my website better, feel free to share.
+**Thanks for taking the time to read this! If you have any ideas or feedback on how I can make my website better, feel free to share.**
 
 Have a great day!
 ## 🌐 Socials:
